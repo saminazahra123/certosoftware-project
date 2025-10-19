@@ -150,11 +150,20 @@
     line-height: 33px;
     padding-bottom: 40px;
 }
+#freedom{
+    background-color: aquamarine;
+}
+.freedom-heading{
+    text-align: center;
+}
 .freedom-boxes-top{
     display: flex;
     justify-content: center;
     gap: 100px
     ;
+}
+.freedom-boxes{
+    margin: 30px 60px;
 }
 .box{
     width: 26%;

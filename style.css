@@ -152,6 +152,7 @@
 }
 #freedom{
     background-color: aquamarine;
+    padding: 30px;
 }
 .freedom-heading{
     text-align: center;
@@ -164,9 +165,12 @@
 }
 .freedom-boxes{
     margin: 30px 60px;
+    background-color: white;
+    padding: 40px 0px;
+    border-radius: 10px;
 }
 .box{
-    width: 26%;
+    width: 25%;
     align-items: center;
     text-align: center;
     padding: 25px;

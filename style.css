@@ -171,3 +171,11 @@
     text-align: center;
     padding: 25px;
 }
+.box h4{
+    line-height: 30px;
+}
+.box p{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0px 10px;
+}

@@ -151,7 +151,7 @@
     padding-bottom: 40px;
 }
 #freedom{
-    background-color: aquamarine;
+    background-color: rgb(176, 238, 217);
     padding: 30px;
 }
 .freedom-heading{
@@ -167,7 +167,7 @@
     margin: 30px 60px;
     background-color: white;
     padding: 40px 0px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .box{
     width: 25%;
@@ -175,6 +175,7 @@
     text-align: center;
     padding: 25px;
 }
+
 .box h4{
     line-height: 30px;
 }
@@ -182,4 +183,24 @@
     font-size: 18px;
     line-height: 20px;
     padding: 0px 10px;
+}
+.freedon-button{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.btn-3{
+    background-color: rgb(248, 183, 63);
+    color: navy ;
+    padding: 13px 29px;
+    border-radius: 15px;
+    font-size: 17px;
+    border: none;
+}
+.btn-4{
+    color: navy;
+    border: 1.5px solid navy;
+    border-radius: 15px;
+    padding: 12px 25px;
+    font-size: 17px;
 }

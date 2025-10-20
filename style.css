@@ -207,4 +207,45 @@
 #read{
     display: flex;
     justify-content: center;
+    padding: 60px 30px;
+    gap: 30px;
+}
+.read-left{
+    width: 30%;
+    padding: 35px;
+    background-color: orange;
+    border-radius: 20px;
+}
+.read-left button{
+    padding: 8px 19px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(41, 41, 184);
+}
+.read-right{
+    width: 28%;
+    padding: 30px;
+}
+#read p{
+    font-size: 18px;
+    line-height: 23px;
+}.read-right button{
+    padding: 8px 19px;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: black;
+}
+#phone{
+    text-align: center;
+    background-color: rgb(60, 60, 255);
+    color: white;
+    padding: 60px 30px;
+}
+#phone h1{
+    line-height: 30px;
+}
+#phone p{
+    line-height: 19px;
+    padding-bottom: 20px;
 }

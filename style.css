@@ -204,3 +204,7 @@
     padding: 12px 25px;
     font-size: 17px;
 }
+#read{
+    display: flex;
+    justify-content: center;
+}

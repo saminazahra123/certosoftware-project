@@ -60,12 +60,23 @@
     font-size: 17px;
     border: none;
 }
+.btn-1:hover{
+    background-color: rgb(247, 174, 39);
+    color: blue;
+}
+a{
+    cursor: pointer;
+}
 .btn-2{
     color: navy;
     border: 1.5px solid navy;
     border-radius: 15px;
     padding: 12px 25px;
     font-size: 17px;
+}
+.btn-2:hover{
+    color: blue;
+    border: 1.5px solid blue;
 }
 .main-right{
     background-image: url(/images/img1.png);
@@ -93,7 +104,7 @@
 }
 .hero-box{
     width: 430px;
-    height: 370px;
+    max-height: max-content;
     padding: 20px;
     border: none;
     background-color: white;
@@ -116,6 +127,7 @@
     color: navy;
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 
 }
 .logos img{
@@ -160,8 +172,7 @@
 .freedom-boxes-top{
     display: flex;
     justify-content: center;
-    gap: 100px
-    ;
+    gap: 80px;
 }
 .freedom-boxes{
     margin: 30px 60px;
@@ -197,12 +208,19 @@
     font-size: 17px;
     border: none;
 }
+.btn-3:hover{
+    background-color: rgb(252, 170, 18);
+}
 .btn-4{
     color: navy;
     border: 1.5px solid navy;
     border-radius: 15px;
     padding: 12px 25px;
     font-size: 17px;
+}
+.btn-4:hover{
+    border: 1.5px solid blue;
+    color: blue;
 }
 #read{
     display: flex;
@@ -223,6 +241,9 @@
     color: white;
     background-color: rgb(41, 41, 184);
 }
+.read-left button:hover{
+    background-color: blue;
+}
 .read-right{
     width: 28%;
     padding: 30px;
@@ -230,11 +251,16 @@
 #read p{
     font-size: 18px;
     line-height: 23px;
-}.read-right button{
+}
+.read-right button{
     padding: 8px 19px;
     border-radius: 15px;
     border: 2px solid black;
     color: black;
+}
+.read-right button:hover{
+    border: 2px solid gray;
+    cursor: pointer;
 }
 #phone{
     text-align: center;
@@ -370,12 +396,11 @@
     width: 19%;
 }
 .footer-right{
-    width: 24%;
+    width: 44%;
 }
 .submit-cont{
     display: flex;
-    /* border: 1px solid gray; */
-    width: 200px;
+    width: 170px;
 }
 .footer-left i{
     font-size: 27px;
@@ -387,6 +412,7 @@
     padding-left: 10px;
     font-size: 15px;
     line-height: 50px;
+    text-underline-offset: 4px;
 }
 .footer-left p{
     font-size: 15px;
@@ -422,7 +448,7 @@
 .footer-right-top{
     background-color: orange;
     padding: 15px;
-    width: 300px;
+    width: 280px;
     border-radius: 15px;
     margin: 10px auto;
 }
@@ -441,5 +467,94 @@
     height: 120px;
     border-radius: 15px;
     margin-top: 100px;
-    /* margin: 20px auto; */
+}
+
+@media screen and (max-width: 940px) and (min-width: 750px){
+    #header{
+        padding: 15px;
+        gap: 10%;
+    }
+    .links a{
+        margin: 0px 9px;
+        font-size: 18px;
+    }
+    .main-right{
+        padding: 30px;
+    }
+    .main-left{
+        padding: 30px;
+    }
+    .hero-boxes{
+        gap: 5px;
+    }
+    .certo-left{
+        padding: 15px;
+    }
+    .certo-right{
+        padding: 15px;
+    }
+    .freedom-boxes-top{
+        gap: 50px;
+    }
+    .box{
+        width: 30%;
+    }
+
+
+    .freedom-boxes-top{
+    gap: 0px;
+}
+.freedom-boxes{
+    margin: 30px 30px;
+    background-color: white;
+    padding: 30px 0px;
+    border-radius: 20px;
+}
+.box{
+    width: 34%;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+.freedon-button{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+#footer{
+    justify-content: none;
+}
+
+
+}
+
+@media screen and (max-width: 750px) and (min-width: 550px){
+     #header{
+        padding: 10px;
+        gap: 2%;
+    }
+    .links a{
+        margin: 0px 2px;
+        font-size: 18px;
+    }
+   #main{
+    flex-direction: column;
+   }
+.main-left{
+    width: 100%;
+}
+.main-right{
+    width: 100%;
+}
+.hero-heading{
+    text-align: center;
+}
+.hero-heading br{
+    display: none;
+}
+.hero-boxes{
+    flex-direction: column;
+    align-items: center;
+}
+
 }

@@ -47,6 +47,9 @@
     font-size: 22px;
     line-height: 33px;
 }
+.btn br{
+    display: none;
+}
 .btn{
     display: flex;
     gap: 19px;
@@ -459,7 +462,7 @@ a{
 }
 .footer-right-top p{
     font-size: 16px;
-    line-height: 17px;
+    line-height: 20px;
     padding-bottom: 15px;
 }
 .footer-right-bottom{
@@ -517,7 +520,7 @@ a{
     width: 34%;
     align-items: center;
     text-align: center;
-    padding: 25px;
+    padding: 15px;
 }
 .freedon-button{
     display: flex;
@@ -527,11 +530,13 @@ a{
 #footer{
     justify-content: none;
 }
-
+.freedon-button br{
+    display: none;
+}
 
 }
 
-@media screen and (max-width: 750px) and (min-width: 550px){
+@media screen and (max-width: 750px) and (min-width: 620px){
      #header{
         padding: 10px;
         gap: 2%;
@@ -568,22 +573,291 @@ a{
     overflow: hidden;
 
 }
-.lastest-left{
-    width: 25%;
-}
-.lastest-center{
-    width: 25%;
-    
-}
-.lastest-right{
-    width: 25%;
-    
-}
 .read-left{
     width: 49%;
 }
 .read-right{
     width: 43%;
     padding: 30px;
+}
+.certo-right{
+    display: none;
+}
+.certo-left{
+    width: 100%
+}
+.lastest-container{
+    gap: 5px;
+    padding-bottom: 30px;
+}
+.lastest-left{
+    width: 32%;
+}
+.lastest-center{
+    width: 30%;
+    
+}
+.lastest-right{
+    width: 30%;
+    
+}
+.lastest-right-bottom{
+    padding: 10px 5px;
+}
+.lastest-center-bottom{
+    padding: 20px 5px;
+}
+.lastest-left-bottom{
+    padding: 20px 5px 50px;
+}
+.lastest-right-bottom p{
+    font-size: 16px;
+}
+
+#freedom{
+    padding: 10px;
+}
+.freedom-heading{
+    text-align: center;
+}
+.freedom-boxes-top{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.freedom-boxes{
+    margin: 30px 10px;
+    background-color: white;
+    padding: 40px 0px;
+    border-radius: 20px;
+}
+.box{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.box h4{
+    line-height: 30px;
+}
+.box p{
+    font-size: 17px;
+    line-height: 19px;
+    padding: 0px 8px;
+}
+.freedon-button{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.footer-left{
+    width: 40%;
+}
+.footer-center{
+    display: none;
+}
+}
+
+@media screen and (max-width: 620px) and (min-width: 500px){
+     #header{
+        padding: 5px;
+        gap: 1%;
+    }
+    .links a{
+        margin: 0px 1px;
+        font-size: 16px;
+    }
+    #main{
+        flex-direction: column;
+    }
+    .main-left{
+        width: 100%;
+    }
+    .main-right{
+        width: 100%;
+    }
+    .hero-heading br{
+        display: none;
+    }
+    .hero-boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    #certo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .certo-left{
+        width: 90%;
+        padding: 18px;
+    }
+    .certo-right{
+        width: 80%;
+    }
+    .freedom-boxes{
+        margin: 15px;
+    }
+    .freedom-boxes-top{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    .freedon-button br{
+        display: auto;
+}
+.freedon-button{
+    flex-direction: column;
+    align-items: center;
+}
+.btn-3{
+    width: fit-content;
+}
+.btn-4{
+    width: fit-content;
+}
+#read{
+    flex-direction: column;
+    align-items: center;
+}
+.read-left{
+    width: 80%;
+}
+.read-right{
+    width: 80%;
+}
+.lastest-container{
+    flex-direction: column;
+}
+.lastest-left{
+    width: 80%;
+}
+.lastest-center{
+    width: 80%;
+}
+.lastest-right{
+    width: 80%;
+}
+#footer{
+    flex-wrap: wrap;
+}
+.footer-left{
+    width: 70%;
+}
+.footer-right{
+    width: 60%;
+}
+.footer-center{
+    width: 30%;
+}
+.footer-right-bottom{
+    display: none;
+}
+}
+@media screen and (max-width: 500px) and (min-width: 250px){
+    #header{
+        padding: 5px;
+        gap: 10%;
+    }
+    .links a{
+        display: none;
+    }
+    #main{
+        flex-direction: column;
+    }
+    .btn{
+    flex-direction: column;
+    align-items: center;
+}
+.btn-1{
+    width: fit-content;
+}
+.btn-2{
+    width: fit-content;
+}
+    .main-left{
+        width: 100%;
+    }
+    .main-right{
+        width: 100%;
+    }
+    .hero-heading br{
+        display: none;
+    }
+    .hero-boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    #certo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .certo-left{
+        width: 90%;
+        padding: 18px;
+    }
+    .certo-right{
+        width: 80%;
+    }
+    .freedom-boxes{
+        margin: 15px;
+    }
+    .freedom-boxes-top{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+    .freedon-button br{
+        display: auto;
+}
+.freedon-button{
+    flex-direction: column;
+    align-items: center;
+}
+.btn-3{
+    width: fit-content;
+}
+.btn-4{
+    width: fit-content;
+}
+#read{
+    flex-direction: column;
+    align-items: center;
+}
+.read-left{
+    width: 80%;
+}
+.read-right{
+    width: 80%;
+}
+.lastest-container{
+    flex-direction: column;
+}
+.lastest-left{
+    width: 80%;
+}
+.lastest-center{
+    width: 80%;
+}
+.lastest-right{
+    width: 80%;
+}
+#footer{
+    flex-wrap: wrap;
+}
+.footer-left{
+    width: 60%;
+}
+.footer-right{
+    width: 100%;
+}
+.footer-center{
+    width: 30%;
+}
+.footer-right-bottom{
+    display: none;
 }
 }
